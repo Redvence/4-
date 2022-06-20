@@ -1,0 +1,18 @@
+.main2{
+  position: absolute;
+  width: 60vh;
+  height: 60vh;
+  background-image: url('../img/vinyl.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 20vh;
+  left: 79vw;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.main2bg{
+  background-image: url('../img/main2.gif');
+  opacity: 0;
+  z-index: 1;
+}

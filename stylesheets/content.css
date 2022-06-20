@@ -1,0 +1,178 @@
+p, a{
+  font-family: 'Roboto Mono';
+  text-align: left;
+  font-size: 2.5vh;
+  line-height: 2.8vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+html{
+  overflow: hidden;
+}
+.bg{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/bg.gif');
+  background-size: auto auto;
+  background-repeat: repeat;
+  opacity: 10%;
+}
+.section1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 15vh;
+  left: 5vw;
+}
+.main{
+  position: relative;
+  padding: 1.4vh;
+  cursor: pointer;
+}
+.main:hover{
+  font-size: 3vh;
+  transition: 0.5s;
+}
+.main1{
+  position: absolute;
+  width: 21vh;
+  height: 23vh;
+  background-image: url('../img/discketa.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: -8vh;
+  left: 16vw;
+  transform: rotate(40deg);
+  cursor: pointer;
+}
+.main1bg{
+  background-image: url('../img/main1.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main2{
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../img/vinyl.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: -13vh;
+  right: -10vw;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.main2bg{
+  background-image: url('../img/main2.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main3{
+  position: absolute;
+  width: 26vh;
+  height: 18vh;
+  background-image: url('../img/tape.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 17vh;
+  left: 42vw;
+  transform: rotate(14deg);
+  cursor: pointer;
+}
+.main3bg{
+  background-image: url('../img/main3.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main4{
+  position: absolute;
+  width: 21vh;
+  height: 23vh;
+  background-image: url('../img/discketa.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 55vh;
+  right: -2vw;
+  transform: rotate(-25deg);
+  cursor: pointer;
+}
+.main4bg{
+  background-image: url('../img/main4.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main5{
+  position: absolute;
+  width: 30vh;
+  height: 30vh;
+  background-image: url('../img/disc.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 75vh;
+  right: 24vw;
+  cursor: pointer;
+}
+.main5bg{
+  background-image: url('../img/main5.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main6{
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  background-image: url('../img/vinyl.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+    top: 70vh;
+  left: -15vw;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.main6bg{
+  background-image: url('../img/main6.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.main7{
+  position: absolute;
+  width: 26vh;
+  height: 17vh;
+  background-image: url('../img/tape.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 65vh;
+  left: 22vw;
+  transform: rotate(40deg);
+  cursor: pointer;
+}
+.main7bg{
+  background-image: url('../img/main7.gif');
+  opacity: 0;
+  z-index: 1;
+}
+.logo{
+  position: absolute;
+  width: 42vh;
+  top: 40vh;
+  left: 33vw;
+  cursor: pointer;
+}
