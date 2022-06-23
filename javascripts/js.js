@@ -57,3 +57,6 @@ $(function(){
 $(function() {
 	$('.kek').draggable();
 });
+$(function() {
+	$('.kek2').draggable();
+});

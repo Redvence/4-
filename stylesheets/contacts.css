@@ -1,18 +1,18 @@
-.main2{
+.main7 {
   position: absolute;
-  width: 60vh;
-  height: 60vh;
-  background-image: url('../img/vinyl.svg');
+  width: 39vh;
+  height: 25vh;
+  background-image: url(../img/tape.svg);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
-  top: 20vh;
-  left: 79vw;
+  top: 36vh;
+  left: 57vw;
   transform: rotate(180deg);
   cursor: pointer;
 }
-.main2bg{
-  background-image: url('../img/main2.gif');
+.main7bg{
+  background-image: url('../img/main7.gif');
   opacity: 1;
   z-index: 1;
 }

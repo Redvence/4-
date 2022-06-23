@@ -12,18 +12,6 @@ body{
   font-size: 20px;
   line-height: 26px;
 } */
-.abouttxt1{
-  width: 75vw;
-  /* height: 395px; */
-  position: absolute;
-  top: 15vh;
-  left: 5vw;
-}
-.strelochka{
-  position: absolute;
-  top: 5vw;
-  left: 5vw;
-}
 .tv{
   position: absolute;
   top:78vh;
