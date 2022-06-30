@@ -26,30 +26,6 @@ body{
   opacity: 1;
   z-index: 1;
 }
-.name, .birth, .date, .memories{
-  width: 40vw;
-  font-size: 2.5vh;
-  font-family: 'Roboto Mono';
-  color: black;
-}
-.borderr{
-  border: 2px solid #000000;
-  background-color: rgba(255, 0, 0, 0);
-  height: 4vh;
-}
-.inputs{
-  /* height: 40vh; */
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  grid-gap: 3vh;
-  top: 20vh;
-  left: 8vh;
-}
-.inputtxt{
-  margin: 0.5vh;
-}
 .zapis{
   position: absolute;
   cursor: pointer;

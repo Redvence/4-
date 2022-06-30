@@ -134,3 +134,15 @@ $(function(){
     $( ".zapislast" ).css("display","block");
 });
 });
+$(function(){
+  $(".h1").click(function(){
+    $( ".acc1" ).toggleClass ("open1");
+    $( ".accarrow1" ).toggleClass("down");
+});
+});
+$(function(){
+  $(".h2").click(function(){
+    $( ".acc2" ).toggleClass ("open2");
+    $( ".accarrow2" ).toggleClass("down");
+});
+});

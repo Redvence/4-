@@ -1,0 +1,115 @@
+body{
+  width: 100vw;
+  position: absolute;
+  display: block;
+  overflow: scroll;
+}
+.bg{
+  width:100%;
+  height:180%;
+}
+.acc{
+  position: relative;
+  width: 90vw;
+  height: 9vh;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  top: 18vh;
+  left: 8vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+.open1{
+  height: 25vh;
+}
+.open2{
+  height: 28vh;
+}
+.headline, .info{
+  position: relative;
+  width: 70vw;
+}
+.headline{
+  top: 3vh;
+  left: 2vh;
+  cursor: pointer;
+}
+.info{
+  top: 7vh;
+  left: 2vh
+}
+.accarrow1{
+  position: absolute;
+  top: 0.3vh;
+  left: 28vh;
+}
+.accarrow2{
+  position: absolute;
+  top: 0.3vh;
+  left: 36vh;
+}
+.down{
+  transform: rotateX(180deg);
+}
+.groupmerch{
+  position: relative;
+}
+.onlineinfo{
+  position: absolute;
+  width: 23vw;
+  left: 35vh
+}
+.boxes{
+  position: relative;
+  width: 33vh;
+  height: 33vh;
+  border-style: solid;
+  border-width: 0.3vh;
+  border-color: black;
+  margin: 3vh;
+}
+.glitch2{
+  background-image: url('../img/glitch3.gif');
+}
+.merch{
+  position: absolute;
+  height: 100%;
+}
+.onlineflex1{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:  column;
+  top: 20vh;
+  left: 3vw;
+}
+.onlineflex2{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: -59.2vh;
+  margin-left: 50vw;
+}
+.inputs{
+  position: relative;
+  top: 0vh;
+  left: 8vh;
+}
+.linkarrow{
+  position: absolute;
+  top: 0.8vh;
+  left: 16vh
+}
+.zapis{
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s;
+  top: 35vh;
+  left: 1vh;
+}
+.zapis:hover{
+  font-size: 3vh;
+  transform: scale(1.2);
+}
