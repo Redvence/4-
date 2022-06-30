@@ -1,0 +1,80 @@
+body{
+  width: 100vw;
+  position: absolute;
+  display: block;
+  overflow: scroll;
+}
+.bg{
+  width:100%;
+  height:390%;
+}
+.rectall{
+  position: relative;
+  width: 90vw;
+  height: 86vh;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  top: 18vh;
+  left: 8vh;
+  margin-top: 5vh;
+}
+.rectall2{
+  height: 81.5vh
+}
+.posters{
+  position: relative;
+  width: 52.9vh;
+  height: 79.5vh;
+  top: 3vh;
+  left: 3vh;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.posters1{
+  background-image: url('../img/poster1.gif');
+}
+.posters2{
+  background-image: url('../img/poster2.gif');
+  height: 75vh;
+}
+.posters3{
+  background-image: url('../img/poster3.gif');
+  height: 79.3vh;
+}
+.posters4{
+  background-image: url('../img/poster4.gif');
+  height: 79.3vh;
+}
+.archive{
+  position: absolute;
+  width: 48vw;
+  height: 39vh;
+  top: 3vh;
+  left: 59vh;
+}
+.zapis{
+  position: absolute;
+  top: 79.8vh;
+  left: 59vh;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.zapis:hover{
+  font-size: 3vh;
+  transform: scale(1.2);
+}
+.zapis2{
+  top: 75.8vh;
+}
+.zapis3{
+  top: 79.8vh;
+}
+.linkarrow{
+  position: absolute;
+  top: 0.8vh;
+  left: 16vh
+}

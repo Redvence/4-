@@ -144,7 +144,7 @@ html{
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
-    top: 70vh;
+  top: 70vh;
   left: -15vw;
   transform: rotate(180deg);
   cursor: pointer;

@@ -60,3 +60,77 @@ $(function() {
 $(function() {
 	$('.kek2').draggable();
 });
+$(function(){
+  $(".merch1").hover(function(){
+    $(".box1").removeClass("glitch2");
+  }, function(){
+    $(".box1").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch2").hover(function(){
+    $(".box2").removeClass("glitch2");
+  }, function(){
+    $(".box2").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch3").hover(function(){
+    $(".box3").removeClass("glitch2");
+  }, function(){
+    $(".box3").addClass("glitch2");
+  });
+});$(function(){
+  $(".merch4").hover(function(){
+    $(".box4").removeClass("glitch2");
+  }, function(){
+    $(".box4").addClass("glitch2");
+  });
+});$(function(){
+  $(".merch5").hover(function(){
+    $(".box5").removeClass("glitch2");
+  }, function(){
+    $(".box5").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch6").hover(function(){
+    $(".box6").removeClass("glitch2");
+  }, function(){
+    $(".box6").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch7").hover(function(){
+    $(".box7").removeClass("glitch2");
+  }, function(){
+    $(".box7").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch8").hover(function(){
+    $(".box8").removeClass("glitch2");
+  }, function(){
+    $(".box8").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".merch9").hover(function(){
+    $(".box9").removeClass("glitch2");
+  }, function(){
+    $(".box9").addClass("glitch2");
+  });
+});
+$(function(){
+  $(".submit").click(function(){
+    $( ".name" ).val("");
+    $( ".name2" ).val("");
+    $( ".email" ).val("");
+    $( ".memories" ).val("");
+});
+});
+$(function(){
+  $(".submit").click(function(){
+    $( ".zapislast" ).css("display","block");
+});
+});

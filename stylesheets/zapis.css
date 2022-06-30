@@ -1,3 +1,13 @@
+body{
+  width: 100vw;
+  position: absolute;
+  display: block;
+  overflow: scroll;
+}
+.bg{
+  width:100%;
+  height:115%;
+}
 .main2{
   position: absolute;
   width: 60vh;
@@ -7,7 +17,7 @@
   background-repeat: no-repeat;
   z-index: 2;
   top: 20vh;
-  left: 79vw;
+  left: 56vw;
   transform: rotate(180deg);
   cursor: pointer;
 }
@@ -15,4 +25,51 @@
   background-image: url('../img/main2.gif');
   opacity: 1;
   z-index: 1;
+}
+.name, .birth, .date, .memories{
+  width: 40vw;
+  font-size: 2.5vh;
+  font-family: 'Roboto Mono';
+  color: black;
+}
+.borderr{
+  border: 2px solid #000000;
+  background-color: rgba(255, 0, 0, 0);
+  height: 4vh;
+}
+.inputs{
+  /* height: 40vh; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-gap: 3vh;
+  top: 20vh;
+  left: 8vh;
+}
+.inputtxt{
+  margin: 0.5vh;
+}
+.zapis{
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.zapis:hover{
+  font-size: 3vh;
+  transform: scale(1.2);
+}
+.zapis3{
+  top: 79.8vh;
+}
+.linkarrow{
+  position: absolute;
+  top: 0.8vh;
+  left: 16vh
+}
+.zapislast{
+  position: relative;
+  top: 6vh;
+  widows: 77vh;
+  display: none;
 }
