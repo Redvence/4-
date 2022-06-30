@@ -6,8 +6,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
-  top: 36vh;
-  left: 57vw;
+  top: -9vh;
+  left: 59vw;
   transform: rotate(180deg);
   cursor: pointer;
 }
